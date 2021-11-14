@@ -1303,9 +1303,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 640218357}
-        m_TargetAssemblyTypeName: UI_Character_Creation, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 640218368}
+        m_TargetAssemblyTypeName: UICharacterCreation, Assembly-CSharp
+        m_MethodName: PlayButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

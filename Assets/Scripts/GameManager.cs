@@ -25,11 +25,4 @@ public class GameManager : MonoBehaviour {
             Destroy(gameObject);
         }
     }
-
-
-    public GameObject completeLevelUI;
-
-    public void LevelComplete() {
-        completeLevelUI.SetActive(true);
-    }
 }
