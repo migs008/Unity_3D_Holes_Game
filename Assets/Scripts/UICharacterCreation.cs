@@ -82,7 +82,7 @@ public class UICharacterCreation : MonoBehaviour {
 
 
     public void PlayButton() {
-        // GameManager.Instance.currentPlayerData = playerData; FIXME
+        GameManager.Instance.currentPlayerData = playerData;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
