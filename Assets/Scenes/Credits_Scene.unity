@@ -454,7 +454,7 @@ Animator:
   m_GameObject: {fileID: 707143519}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ad314f2536eaa421fb7e3c1ed6d5cb3e, type: 2}
+  m_Controller: {fileID: 9100000, guid: a685dac6beba7413ba6338fe8bb36729, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1150,33 +1150,31 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Alexander Kuzdal
+  m_Text: '...
 
 
-    Alexander Kuzdal
+    ...
 
 
-    Alexander Kuzdal
+    ...
 
 
-    Alexander
-    Kuzdal
+    ...
 
 
-    Alexander Kuzdal
+    ...
 
 
-    Alexander Kuzdal
+    ...
 
 
-    Alexander Kuzdal
+    ...
 
 
-    Alexander
-    Kuzdal
+    ...
 
 
-    Alexander Kuzdal'
+    ...'
 --- !u!222 &1820083845
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1255,7 +1253,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: THANKS FOR PLAYING COIN JUMP
+  m_Text: THANKS FOR PLAYING HOLES
 --- !u!222 &2040347742
 CanvasRenderer:
   m_ObjectHideFlags: 0
