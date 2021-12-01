@@ -11,11 +11,32 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour {
 
-    public float playerSpeed = 5;
+    private GameManager gameManager;
+
+    public float playerSpeed;
     public Rigidbody playerRb;
 
     float horizontalInput;
     public float horizontalMultiplier = 2;
+
+    void Start() {
+        gameManager = GameManager.Instance;
+        string selectedDifficulty = GameManager.Instance.currentPlayerData.Difficulty;
+
+        if (selectedDifficulty == "Easy") {
+            playerSpeed = 5;
+        }
+        else if (selectedDifficulty == "Medium") {
+            playerSpeed = 7;
+        }
+        else if (selectedDifficulty == "Hard") {
+            playerSpeed = 10;
+        }
+        else {
+            playerSpeed = 5;
+        }
+
+    }
 
     void FixedUpdate() {
         Vector3 forwardMove = transform.forward * playerSpeed * Time.fixedDeltaTime;
