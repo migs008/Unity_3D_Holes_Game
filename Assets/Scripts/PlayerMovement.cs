@@ -19,6 +19,8 @@ public class PlayerMovement : MonoBehaviour {
     float horizontalInput;
     public float horizontalMultiplier = 2;
 
+    private bool isDead = false;
+
     void Start() {
         gameManager = GameManager.Instance;
         string selectedDifficulty = GameManager.Instance.currentPlayerData.Difficulty;
@@ -39,6 +41,10 @@ public class PlayerMovement : MonoBehaviour {
     }
 
     void FixedUpdate() {
+
+        if (isDead)
+            return;
+
         Vector3 forwardMove = transform.forward * playerSpeed * Time.fixedDeltaTime;
         Vector3 horizontalMove = transform.right * horizontalInput * playerSpeed * Time.fixedDeltaTime * horizontalMultiplier;
         playerRb.MovePosition(playerRb.position + forwardMove + horizontalMove);
@@ -47,5 +53,18 @@ public class PlayerMovement : MonoBehaviour {
     // Update is called once per frame
     void Update() {
         horizontalInput = Input.GetAxis("Horizontal");
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Wall")
+            Death();
+    }
+
+
+    private void Death()
+    {
+        isDead = true;
+        GetComponent<Score>().OnDeath();
     }
 }
