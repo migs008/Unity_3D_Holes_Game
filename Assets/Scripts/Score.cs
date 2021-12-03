@@ -22,6 +22,11 @@ public class Score : MonoBehaviour
     {
         if (other.gameObject.tag == "Win")
             score += 20;
+            
+        if (other.gameObject.tag == "Coin") {
+            other.gameObject.SetActive(false);
+            score += 5;
+        }
 
     }
 

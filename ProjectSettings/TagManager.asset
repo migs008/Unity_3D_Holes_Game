@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Wall
   - Win
+  - Coin
+  - SpeedBoost
+  - SpeedSlow
   layers:
   - Default
   - TransparentFX
