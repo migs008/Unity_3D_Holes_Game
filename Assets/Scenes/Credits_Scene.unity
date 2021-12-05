@@ -1190,31 +1190,32 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: '...
+  m_Text: 'Holes Inc.
 
 
-    ...
+    Holes Inc.
 
 
-    ...
+    Holes Inc.
 
 
-    ...
+    Holes Inc.
 
 
-    ...
+    Holes
+    Inc.
 
 
-    ...
+    Holes Inc.
 
 
-    ...
+    Holes Inc.
 
 
-    ...
+    Holes Inc.
 
 
-    ...'
+    Holes Inc.'
 --- !u!222 &1820083845
 CanvasRenderer:
   m_ObjectHideFlags: 0

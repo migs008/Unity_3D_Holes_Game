@@ -28,7 +28,7 @@ public class DeathMenu : MonoBehaviour
 
     public void playButton()
     {
-        LoadSceneByNumber(5);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void menuButton()

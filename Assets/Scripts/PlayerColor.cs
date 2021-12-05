@@ -13,7 +13,7 @@ using UnityEngine;
 public class PlayerColor : MonoBehaviour {
 
     private GameManager gameManager;
-    private Material playerMaterial;
+    [SerializeField] private Material playerMaterial;
 
 
     void Start() {
@@ -21,7 +21,7 @@ public class PlayerColor : MonoBehaviour {
 
         string selectedColor = GameManager.Instance.currentPlayerData.Color;
 
-        playerMaterial = GetComponent<Renderer>().material;
+        // playerMaterial = GetComponent<Renderer>().material;
 
         Color purpleColor = new Color(128/255f, 0, 128/255f);
         Color orangeColor = new Color(255/255f, 165/255f, 0);

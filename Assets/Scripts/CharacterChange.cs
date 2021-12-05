@@ -46,8 +46,6 @@ public class CharacterChange : MonoBehaviour
             // Toggle on new model
 
             characterList[index].SetActive(true);
-
-            Debug.Log("Space key pressed!");
         }
 
     }
