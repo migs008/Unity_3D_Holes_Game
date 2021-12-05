@@ -15,15 +15,18 @@ EditorBuildSettings:
     path: Assets/Scenes/CharacterCreation_Scene.unity
     guid: 61c50a1cdbe1740f4a28e64819ed26d0
   - enabled: 1
-    path: Assets/Scenes/Game_Scene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/GameLvl01_Scene.unity
+    guid: 918995559f4fb498d9eb6730dbc4b294
   - enabled: 1
     path: Assets/Scenes/Credits_Scene.unity
     guid: 69b5b0717b420499b84c86948f9c0422
-  - enabled: 1
+  - enabled: 0
+    path: Assets/Scenes/Game_Scene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 0
     path: Assets/Scenes/Wall_Test.unity
     guid: a0c385040aaf1a6479bb0ad7843595f6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/zObjects_Test.unity
     guid: bedda7237c59e45cd996c86f672448e9
   m_configObjects: {}

@@ -12,7 +12,6 @@ public class playerRotator : MonoBehaviour
         {
             // Rotates the model
             transform.Rotate(xAngle, yAngle, zAngle, Space.World);
-            Debug.Log("E pressed!");
         }
     }
 }
