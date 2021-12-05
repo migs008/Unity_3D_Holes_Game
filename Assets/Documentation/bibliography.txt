@@ -1,0 +1,40 @@
+Bibliography
+
+Team01:
+Miguel Luis Aquino
+Alexander Kuzdal
+Matthew Wantoch
+Erik Torres
+
+
+ARTS
+HolesMenuBackground2.png - Created by Miguel Luis Aquino on 12/4 (Created on GIMP)
+BlocksAreBetter.png - Created by Miguel Luis Aquino on 12/4 (Created on GIMP)
+BreakWalls.png - Created by Miguel Luis Aquino on 12/4 (Created on GIMP)
+Cake.png - Created by Miguel Luis Aquino on 12/2 (Created on GIMP)
+CakeIsALie.png - Created by Miguel Luis Aquino on 12/2 (Created on GIMP)
+Caution.png - Created by Miguel Luis Aquino on 12/2 (Created on GIMP)
+CloseButton.png - Created by Miguel Luis Aquino on 12/2 (Created on GIMP)
+DecreaseIcon.png - Created by Miguel Luis Aquino on 12/2 (Created on GIMP)
+Diamond.png - Created by Miguel Luis Aquino on 12/2 (Created on GIMP)
+DiamondHands.png - Created by Miguel Luis Aquino on 12/2 (Created on GIMP)
+Fangs.png - Created by Miguel Luis Aquino on 12/2 (Created on GIMP)
+IncreaseIcon.png - Created by Miguel Luis Aquino on 12/2 (Created on GIMP)
+PS5.png - Created by Miguel Luis Aquino on 12/2 (Created on GIMP)
+RGB.png - Created by Miguel Luis Aquino on 12/2 (Created on GIMP)
+SDSU.png - Created by Miguel Luis Aquino on 12/2 (Created on GIMP)
+Slimering_idle.png - Created by Miguel Luis Aquino on 12/2 (Created on GIMP)
+Slimering_mouth_close.png - Created by Miguel Luis Aquino on 12/2 (Created on GIMP)
+Slimering_mouth_open.png - Created by Miguel Luis Aquino on 12/2 (Created on GIMP)
+Slimering_blocked_side.png - Created by Miguel Luis Aquino on 12/2 (Created on GIMP)
+Slimering_peek.png - Created by Miguel Luis Aquino on 12/2 (Created on GIMP)
+Wicked.png - Created by Miguel Luis Aquino on 12/2 (Created on GIMP)
+
+
+AUDIO
+
+
+ANIMATIONS
+RollingCredits Animation - Created by Alexander Kuzdal on 11/12
+PauseMenu - Created by Alexander Kuzdal on 12/2
+ButtonAnimation - Created by Matthew Wantoch on 12/3
