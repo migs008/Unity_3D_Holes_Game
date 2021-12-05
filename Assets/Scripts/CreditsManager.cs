@@ -17,7 +17,7 @@ public class CreditsManager : MonoBehaviour {
     }
 
     public void PlayAgainButton() {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
+        SceneManager.LoadScene(0);
     }
 
     public void QuitButton() {
