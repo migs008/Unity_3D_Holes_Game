@@ -26,6 +26,7 @@ public class PlayerMovement : MonoBehaviour {
 
     public AudioClip speedUpSound;
     public AudioClip slowDownSound;
+    public AudioClip deathSound;    
 
     void Start() {
         gameManager = GameManager.Instance;
@@ -79,7 +80,10 @@ public class PlayerMovement : MonoBehaviour {
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Wall")
+        {
+            AudioSource.PlayClipAtPoint(deathSound, transform.position);
             Death();
+        }
     }
 
     public void OnTriggerEnter(Collider other)

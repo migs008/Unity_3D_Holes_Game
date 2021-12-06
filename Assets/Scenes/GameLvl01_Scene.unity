@@ -3994,6 +3994,7 @@ MonoBehaviour:
   horizontalMultiplier: 2
   speedUpSound: {fileID: 8300000, guid: deb4ce813c35540a7afa776d18f60729, type: 3}
   slowDownSound: {fileID: 8300000, guid: 30e80e8a29c39472cb063e1b23fac71b, type: 3}
+  deathSound: {fileID: 8300000, guid: 79ea4de15257b5344b377021711c50b6, type: 3}
 --- !u!114 &1103267084
 MonoBehaviour:
   m_ObjectHideFlags: 0
