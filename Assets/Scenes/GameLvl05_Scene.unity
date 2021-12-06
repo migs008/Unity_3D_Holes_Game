@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2799,6 +2799,7 @@ MonoBehaviour:
   xAngle: 0
   yAngle: 90
   zAngle: 0
+  shuffleSound: {fileID: 8300000, guid: 0bf3bf3ac81b9f446b2b30189586e75d, type: 3}
 --- !u!1 &604766948
 GameObject:
   m_ObjectHideFlags: 0
@@ -2928,6 +2929,7 @@ MonoBehaviour:
   xAngle: 0
   yAngle: 90
   zAngle: 0
+  shuffleSound: {fileID: 8300000, guid: 0bf3bf3ac81b9f446b2b30189586e75d, type: 3}
 --- !u!1 &641432836
 GameObject:
   m_ObjectHideFlags: 0
@@ -4586,6 +4588,7 @@ MonoBehaviour:
   xAngle: 0
   yAngle: 90
   zAngle: 0
+  shuffleSound: {fileID: 8300000, guid: 0bf3bf3ac81b9f446b2b30189586e75d, type: 3}
 --- !u!4 &1076995065 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7775740742458616488, guid: c6ad0a2c20e5a4a2b85ed5c80b140eb9, type: 3}
@@ -4807,6 +4810,7 @@ MonoBehaviour:
   horizontalMultiplier: 2
   speedUpSound: {fileID: 8300000, guid: deb4ce813c35540a7afa776d18f60729, type: 3}
   slowDownSound: {fileID: 8300000, guid: 30e80e8a29c39472cb063e1b23fac71b, type: 3}
+  deathSound: {fileID: 8300000, guid: 79ea4de15257b5344b377021711c50b6, type: 3}
 --- !u!114 &1103267084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4856,6 +4860,7 @@ MonoBehaviour:
   scoreText: {fileID: 1050272764}
   deathMenu: {fileID: 1934053478}
   coinSound: {fileID: 8300000, guid: e7c21fa47da57415e9955cf986120329, type: 3}
+  passWall: {fileID: 8300000, guid: 97f9cfd69a29d884483ca1bba719af11, type: 3}
 --- !u!114 &1103267087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5462,6 +5467,7 @@ MonoBehaviour:
   xAngle: 0
   yAngle: 90
   zAngle: 0
+  shuffleSound: {fileID: 8300000, guid: 0bf3bf3ac81b9f446b2b30189586e75d, type: 3}
 --- !u!1 &1231529315
 GameObject:
   m_ObjectHideFlags: 0
@@ -6394,6 +6400,7 @@ MonoBehaviour:
   xAngle: 0
   yAngle: 90
   zAngle: 0
+  shuffleSound: {fileID: 8300000, guid: 0bf3bf3ac81b9f446b2b30189586e75d, type: 3}
 --- !u!1001 &1392041647
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6876,6 +6883,7 @@ MonoBehaviour:
   xAngle: 0
   yAngle: 90
   zAngle: 0
+  shuffleSound: {fileID: 8300000, guid: 0bf3bf3ac81b9f446b2b30189586e75d, type: 3}
 --- !u!1 &1478761894
 GameObject:
   m_ObjectHideFlags: 0
@@ -8076,6 +8084,7 @@ MonoBehaviour:
   xAngle: 0
   yAngle: 90
   zAngle: 0
+  shuffleSound: {fileID: 8300000, guid: 0bf3bf3ac81b9f446b2b30189586e75d, type: 3}
 --- !u!1 &1894853206
 GameObject:
   m_ObjectHideFlags: 0

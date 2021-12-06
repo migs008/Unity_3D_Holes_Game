@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.4465782, g: 0.49641252, b: 0.5748167, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -307,6 +307,7 @@ MonoBehaviour:
   xAngle: 0
   yAngle: 90
   zAngle: 0
+  shuffleSound: {fileID: 8300000, guid: 0bf3bf3ac81b9f446b2b30189586e75d, type: 3}
 --- !u!1 &63524123
 GameObject:
   m_ObjectHideFlags: 0
@@ -643,6 +644,7 @@ MonoBehaviour:
   xAngle: 0
   yAngle: 90
   zAngle: 0
+  shuffleSound: {fileID: 8300000, guid: 0bf3bf3ac81b9f446b2b30189586e75d, type: 3}
 --- !u!1001 &252373188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1020,6 +1022,7 @@ MonoBehaviour:
   xAngle: 0
   yAngle: 90
   zAngle: 0
+  shuffleSound: {fileID: 8300000, guid: 0bf3bf3ac81b9f446b2b30189586e75d, type: 3}
 --- !u!1 &302059778
 GameObject:
   m_ObjectHideFlags: 0
@@ -1183,6 +1186,7 @@ MonoBehaviour:
   scoreText: {fileID: 477448857}
   deathMenu: {fileID: 792056350}
   coinSound: {fileID: 8300000, guid: e7c21fa47da57415e9955cf986120329, type: 3}
+  passWall: {fileID: 8300000, guid: 97f9cfd69a29d884483ca1bba719af11, type: 3}
 --- !u!114 &309209901
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1200,6 +1204,7 @@ MonoBehaviour:
   horizontalMultiplier: 2
   speedUpSound: {fileID: 8300000, guid: deb4ce813c35540a7afa776d18f60729, type: 3}
   slowDownSound: {fileID: 8300000, guid: 30e80e8a29c39472cb063e1b23fac71b, type: 3}
+  deathSound: {fileID: 8300000, guid: 79ea4de15257b5344b377021711c50b6, type: 3}
 --- !u!114 &309209902
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3304,6 +3309,7 @@ MonoBehaviour:
   xAngle: 0
   yAngle: 90
   zAngle: 0
+  shuffleSound: {fileID: 8300000, guid: 0bf3bf3ac81b9f446b2b30189586e75d, type: 3}
 --- !u!4 &865589083 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4553331371643406831, guid: f916cf81d7fe64cd183fa613bd0a2e3a, type: 3}
@@ -4634,6 +4640,7 @@ MonoBehaviour:
   xAngle: 0
   yAngle: 90
   zAngle: 0
+  shuffleSound: {fileID: 8300000, guid: 0bf3bf3ac81b9f446b2b30189586e75d, type: 3}
 --- !u!4 &1164403260 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8133047188699031411, guid: 2d85b96a5511fc740be609f20e6ea4ba, type: 3}
@@ -5563,6 +5570,7 @@ MonoBehaviour:
   xAngle: 0
   yAngle: 90
   zAngle: 0
+  shuffleSound: {fileID: 8300000, guid: 0bf3bf3ac81b9f446b2b30189586e75d, type: 3}
 --- !u!1001 &1457645097
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8346,6 +8354,7 @@ MonoBehaviour:
   xAngle: 0
   yAngle: 90
   zAngle: 0
+  shuffleSound: {fileID: 8300000, guid: 0bf3bf3ac81b9f446b2b30189586e75d, type: 3}
 --- !u!4 &2015447865 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4553331371643406831, guid: f916cf81d7fe64cd183fa613bd0a2e3a, type: 3}
