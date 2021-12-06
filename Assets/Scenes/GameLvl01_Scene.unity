@@ -4044,6 +4044,7 @@ MonoBehaviour:
   scoreText: {fileID: 1050272764}
   deathMenu: {fileID: 1934053478}
   coinSound: {fileID: 8300000, guid: e7c21fa47da57415e9955cf986120329, type: 3}
+  passWall: {fileID: 8300000, guid: 97f9cfd69a29d884483ca1bba719af11, type: 3}
 --- !u!114 &1103267087
 MonoBehaviour:
   m_ObjectHideFlags: 0
