@@ -24,6 +24,10 @@ public class PlayerMovement : MonoBehaviour {
 
     private bool isDead = false;
 
+    public AudioClip speedUpSound;
+    public AudioClip slowDownSound;
+    public AudioClip deathSound;    
+
     void Start() {
         gameManager = GameManager.Instance;
         setSpeed();
@@ -76,17 +80,22 @@ public class PlayerMovement : MonoBehaviour {
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Wall")
+        {
+            AudioSource.PlayClipAtPoint(deathSound, transform.position);
             Death();
+        }
     }
 
     public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "SpeedSlow") {
+            AudioSource.PlayClipAtPoint(slowDownSound, transform.position);
             other.gameObject.SetActive(false);
             boosting = true;
             playerSpeed = playerSpeed / 2;
         }
         if (other.gameObject.tag == "SpeedBoost") {
+            AudioSource.PlayClipAtPoint(speedUpSound, transform.position);
             other.gameObject.SetActive(false);
             boosting = true;
             playerSpeed = playerSpeed * 2;

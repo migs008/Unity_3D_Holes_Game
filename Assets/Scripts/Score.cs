@@ -13,6 +13,9 @@ public class Score : MonoBehaviour
 
     public DeathMenu deathMenu;
 
+    public AudioClip coinSound;
+    public AudioClip passWall;
+
     private void Update()
     {
         scoreText.text = score.ToString();
@@ -21,9 +24,13 @@ public class Score : MonoBehaviour
     public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Win")
+        {
+            AudioSource.PlayClipAtPoint(passWall, transform.position);
             score += 20;
-            
+        }   
+        
         if (other.gameObject.tag == "Coin") {
+            AudioSource.PlayClipAtPoint(coinSound, transform.position);
             other.gameObject.SetActive(false);
             score += 5;
         }
