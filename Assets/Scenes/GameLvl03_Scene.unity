@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657838, g: 0.49641234, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3143,6 +3143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreText: {fileID: 208554408}
   deathMenu: {fileID: 1572105397}
+  coinSound: {fileID: 8300000, guid: e7c21fa47da57415e9955cf986120329, type: 3}
 --- !u!114 &889731414
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3158,6 +3159,8 @@ MonoBehaviour:
   playerSpeed: 5
   playerRb: {fileID: 889731412}
   horizontalMultiplier: 2
+  speedUpSound: {fileID: 8300000, guid: deb4ce813c35540a7afa776d18f60729, type: 3}
+  slowDownSound: {fileID: 8300000, guid: 30e80e8a29c39472cb063e1b23fac71b, type: 3}
 --- !u!114 &889731415
 MonoBehaviour:
   m_ObjectHideFlags: 0
